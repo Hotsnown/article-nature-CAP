@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="undirected"><node id="appel"/>
+<node id="court"/>
+<node id="trial"/>
+<node id="ark"/>
+<node id="appeal"/>
+<node id="protect"/>
+<node id="govern"/>
+<node id="bear"/>
+<node id="rule"/>
+<node id="crimin"/>
+<node id="sic"/>
+<node id="civil"/>
+<node id="fair"/>
+<node id="defect"/>
+<node id="postur"/>
+<edge source="appel" target="appeal"/>
+<edge source="appel" target="trial"/>
+<edge source="appel" target="court"/>
+<edge source="appel" target="govern"/>
+<edge source="appel" target="appel"/>
+<edge source="appel" target="protect"/>
+<edge source="court" target="trial"/>
+<edge source="court" target="rule"/>
+<edge source="court" target="ark"/>
+<edge source="court" target="crimin"/>
+<edge source="court" target="appeal"/>
+<edge source="trial" target="rule"/>
+<edge source="trial" target="crimin"/>
+<edge source="trial" target="fair"/>
+<edge source="ark" target="rule"/>
+<edge source="ark" target="appeal"/>
+<edge source="appeal" target="crimin"/>
+<edge source="appeal" target="civil"/>
+<edge source="govern" target="civil"/>
+<edge source="govern" target="rule"/>
+</graph></graphml>
