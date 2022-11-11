@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="undirected"><node id="court"/>
+<node id="civil"/>
+<node id="govern"/>
+<node id="rule"/>
+<node id="crimin"/>
+<node id="trial"/>
+<node id="fair"/>
+<node id="bear"/>
+<node id="appeal"/>
+<node id="protect"/>
+<edge source="court" target="trial"/>
+<edge source="court" target="rule"/>
+<edge source="civil" target="govern"/>
+<edge source="rule" target="fair"/>
+</graph></graphml>
